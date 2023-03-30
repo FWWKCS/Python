@@ -11,7 +11,7 @@ class Bird(Animal, Wing):
         print('날다')
 
 b = Bird()
-b .eat()
+b.eat()
 b.flap()
 b.fly()
 print(issubclass(Bird,Animal))
